@@ -1,0 +1,30 @@
+theme = "catppuccin_mocha"
+
+# theme = "selfish"
+
+[editor]
+mouse = false
+auto-completion = true
+line-number = "relative"
+bufferline = "always"
+scrolloff = 8
+completion-replace = true
+# auto-info = false
+
+[editor.statusline]
+left = ["mode", "spinner", "file-base-name"]
+center = ["total-line-numbers", "diagnostics"]
+
+[editor.lsp]
+display-messages = true
+auto-signature-help = false
+display-signature-help-docs = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "underline"
+select = "block"
+
+[editor.file-picker]
+hidden = false
+max-depth = 1
