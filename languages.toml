@@ -1,0 +1,7 @@
+[[language]]
+name = "rust"
+auto-format = true
+language-server = { command = "rust-analyzer" }
+file-types = ["rs"]
+comment-token = "///"
+indent = { tab-width = 2, unit = "   "}
